@@ -1,0 +1,10 @@
+.flexbox{
+    display: flex;
+    align-items: flex-end
+}
+subtitle{
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 0.5em;
+    text-align: center;
+}

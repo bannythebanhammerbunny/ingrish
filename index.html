@@ -1,0 +1,46 @@
+<!-- ok whats gonna happen is i have 3 pages with each and at the bottom of each it shows the
+ arguements for each movie being a greater depiction of humans and machines, at the 
+ bottom of each page lies a button to choose which one you think is best and when that is done 
+ your choice is locked in and my personal opinion is revealed -->
+<!-- php/wamp/sql is not gonna be nessasary-->
+ <!-- Expectations:
+ A website (such as a Google Site) in which you discuss the three films in relation to one another, and then articulate which film most compellingly depicts the relationship between humans and machines;
+Regardless of which form you choose, you should:
+
+1. Address all three films critically, thoughtfully, and in detail; referring to specific moments, scenes, shots, and other elements of their composition (such as visual design, sound design, story, performance, dialogue, animation, etc...)
+2. Be able to support any claims you make about the films with evidence and reference to the films themselves;
+3. Use enough description and explanation of your thinking to thoughtfully address the question;
+4. Have a clear, direct, and reasonable answer to the question;
+5. Effectively communicate your ideas using the form you have chosen, such as through applying appropriate elements of design for a website, effective use of essay style and structure for the review essay, a well organized and coherently constructed presentation, use of clear narrative voice and effective slide design for the slide show (and so on); 
+6. Make appropriate choices for your experience, abilities, preferences and comfort! If you don't like doing presentations, don't choose a presentation! If you don't enjoy writing, don't choose the review essay!  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crossroads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Take your pick</h1>
+    <p>There are 3 pages below depicting my thoughts on each film and their accuracy in their depiction of relationship of humans and machines, then their connections with different films.</p>
+    <p>After reading them all, you can take your pick at which film you believe to be the strongest in these regards, before I share my opinion on this.</p>
+    <ul class="film-list">
+        <li><a href="1984.html">2001: A Space Odyssey</a></li>
+        <li><a href="robotsheep.html">A Robot's Dream</a></li>
+        <li><a href="mvm.html">The Mitchels vs The Machines</a></li>
+    </ul>
+    <form action="putinascriptherethatsrelevantnotphp">
+        <label for="films">Choose a film after reading the three pages:</label>
+        <select id="films" name="films">
+            <option selected="selected" disabled="true">Please choose</option>
+            <option value="1984">2001: A Space Odyssey</option>
+            <option value="robotsheep">A Robot's Dream</option>
+            <option value="mvm">The Mitchels vs The Machines</option>
+        </select>
+        <input type="submit">
+    </form>
+    <p>For a list of external sources I have used, click <a href="sources.html">here.</a></p>
+</body>
+</html>
